@@ -100,7 +100,7 @@
             
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
                     <i class="fas fa-users" style="margin-left: 3px; margin-right: 0px; background: linear-gradient(90deg, blue, white);" ></i>
-                    <a href="/404" style="color: black; text-decoration: none; text-align:left">JARINGAN LAN WAN</a>
+                    <a href="/404" style="color: black; text-decoration: none; text-align:left">INSTALASI JARINGAN LAN WAN</a>
                 </div>
               
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
@@ -110,20 +110,33 @@
                
                 <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
                     <i class="fas fa-users" style="margin-left: 3px; margin-right: 0px; background: linear-gradient(90deg, blue, white);" ></i>
-                    <a href="/404" style="color: black; text-decoration: none; text-align:left">REPARASI KENDARAAN</a>
-                </div>
-               
-                <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
-                    <i class="fas fa-users" style="margin-left: 3px; margin-right: 0px; background: linear-gradient(90deg, blue, white);" ></i>
                     <a href="/404" style="color: black; text-decoration: none; text-align:left">CLEANING SERVICE BANGUNAN GEDUNG</a>
                 </div>
-            
+               
+               
+
+                
+                </div>
+        </div>                    {{-- <a href="#">PROFIL</a> --}}
+        
+        <div class="dropdown">
+            <a href="#" class="dropdown-toggle">GALERI</a>
+            {{-- <i class="fas fa-chevron-down arrow"></i> --}}
+            <div class="dropdown-content">
+                <!-- <div style="display: inline-flex; align-items: center; color: black; text-decoration: none;">
+                    <i class="fas fa-users" style="margin-left: 3px; margin-right: 0px; background: linear-gradient(90deg, blue, white);" ></i>
+                    <a href="/404" style="color: black; text-decoration: none; text-align:left">CLEANING SERVICE BANGUNAN GEDUNG</a>
+                </div> -->
+               
+               
+
+                
                 </div>
         </div>                    {{-- <a href="#">PROFIL</a> --}}
         
         
 
-        <a href="/tdup">TDUP</a>
+        <!-- <a href="/tdup">TDUP</a> -->
         
         
         

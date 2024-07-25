@@ -19,16 +19,16 @@
         <article>
         <div class="container">
             {{-- <h1> We are Certified Engineers</h1> --}}
-            <h2>Sistem Informasi <br> Pembina Jasa Konstruksi <br>
-            <span>Pemerintah Kab bandung Barat </span></h2>
-            <p style="text-align: justify">Sistem Informasi Jasa Konstruksi Pemerintah Kabupaten Bandung Barat adalah platform digital yang mengelola proyek konstruksi pemerintah, mencakup pengelolaan data, pelaporan kemajuan, manajemen kontrak, dan pemantauan kualitas. Sistem ini meningkatkan transparansi dan efisiensi, memungkinkan pemantauan efektif oleh pemerintah dan pemangku kepentingan, serta memastikan proyek berjalan sesuai jadwal, anggaran, dan spesifikasi. Selain itu, sistem ini memudahkan penyimpanan dan akses dokumen penting, mendukung proses audit dan evaluasi kinerja kontraktor. 
+            <h2>persada umat<br>
+            <span style="color: #000000;">inovasi untuk kesejahteraan umat yang berkemajuan </span></h2>
+            <!-- <p style="text-align: justify">Sistem Informasi Jasa Konstruksi Pemerintah Kabupaten Bandung Barat adalah platform digital yang mengelola proyek konstruksi pemerintah, mencakup pengelolaan data, pelaporan kemajuan, manajemen kontrak, dan pemantauan kualitas. Sistem ini meningkatkan transparansi dan efisiensi, memungkinkan pemantauan efektif oleh pemerintah dan pemangku kepentingan, serta memastikan proyek berjalan sesuai jadwal, anggaran, dan spesifikasi. Selain itu, sistem ini memudahkan penyimpanan dan akses dokumen penting, mendukung proses audit dan evaluasi kinerja kontraktor.  -->
             </p>
             
-            <a href="/404"> <i class="fas fa-cogs me-2 "></i>pelatihan</a>
+            <!-- <a href="/404"> <i class="fas fa-cogs me-2 "></i>pelatihan</a>
             <a href="/404"> <i class="fas fa-file me-2 "></i>sertifikasi</a>
             <a href="/404"> <i class="fas fa-building me-2 "></i>project kbb</a>
             <a href="/404"> <i class="fas fa-file me-2 "></i>slf</a>
-            <a href="/404"> <i class="fas fa-road me-2 "></i>pbg</a>
+            <a href="/404"> <i class="fas fa-road me-2 "></i>pbg</a> -->
         </div>
         </article>
 
@@ -65,9 +65,9 @@
     margin-left: 325px;
     background: linear-gradient(to right, #f0f0f0, #e0e0e0);
     transition: background 0.5s ease, color 0.5s ease;
-" onmouseover="this.style.background='linear-gradient(to right, #f0f0f0, #e0e0e0)'; this.style.color='black';" onmouseout="this.style.background='linear-gradient(to right, black, yellow )'; this.style.color='white';">
+" onmouseover="this.style.background='linear-gradient(to right, #f0f0f0, #e0e0e0)'; this.style.color='black';" onmouseout="this.style.background='linear-gradient(to right, darkblue, white )'; this.style.color='white';">
 
-Layanan Jasa Konstruksi
+Layanan Jasa Persada Umat
 </h2>
 
 
@@ -79,10 +79,10 @@ Layanan Jasa Konstruksi
                     </div>
                     <div class="service-content">
                         <img src="/assets/bahan2/img/s1.svg"/>
-                            <h3>Infrastruktur Perkotaan</h3>
-                            <p style="color: darkgreen; text-align: justify;">
+                            <h3>Infrastruktur CCTV & Jaringan</h3>
+                            <!-- <p style="color: darkgreen; text-align: justify;">
                                 Infrastruktur perkotaan adalah sistem dan fasilitas dasar yang mendukung kehidupan di kota, termasuk transportasi, listrik, air, sanitasi, kesehatan, pendidikan, dan layanan publik lainnya. Ini memastikan kota berfungsi dengan baik dan meningkatkan kualitas hidup penduduk.
-                            </p>
+                            </p> -->
                             
                             <a href="/404" style="
                             font-family: 'Lato', sans-serif;
@@ -98,7 +98,7 @@ Layanan Jasa Konstruksi
                             width: 500px;
                             background: linear-gradient(to right, #f0f0f0, #e0e0e0);
                             transition: background 0.5s ease, color 0.5s ease;
-                        " onmouseover="this.style.background='linear-gradient(to right, #f0f0f0, #e0e0e0)'; this.style.color='black';" onmouseout="this.style.background='linear-gradient(to right, black, yellow )'; this.style.color='white';">
+                        " onmouseover="this.style.background='linear-gradient(to right, #f0f0f0, #e0e0e0)'; this.style.color='black';" onmouseout="this.style.background='linear-gradient(to right, blue, white )'; this.style.color='white';">
                                 Read More
                             </a>
                             </div>
@@ -112,10 +112,10 @@ Layanan Jasa Konstruksi
                     </div>
                     <div class="service-content">
                     <img src="/assets/bahan2/img/s2.svg"/>
-                                <h3>Infrastruktur Jalan</h3>
-                                <p style="color: darkgreen; text-align: justify;">
+                                <h3>Teknologi Informasi</h3>
+                                <!-- <p style="color: darkgreen; text-align: justify;">
                                     Infrastruktur jalan mencakup jalan, jalan tol, jembatan, dan terowongan yang mendukung mobilitas dan perdagangan. Ini meningkatkan efisiensi transportasi, mengurangi kemacetan, meningkatkan keselamatan, dan mendukung pertumbuhan ekonomi serta kesejahteraan masyarakat.
-                                </p>
+                                </p> -->
                                 <a href="/404" style="
                                 font-family: 'Lato', sans-serif;
                                 font-weight: 700;
@@ -130,7 +130,7 @@ Layanan Jasa Konstruksi
                                 width: 500px;
                                 background: linear-gradient(to right, #f0f0f0, #e0e0e0);
                                 transition: background 0.5s ease, color 0.5s ease;
-                            " onmouseover="this.style.background='linear-gradient(to right, #f0f0f0, #e0e0e0)'; this.style.color='black';" onmouseout="this.style.background='linear-gradient(to right, black, yellow )'; this.style.color='white';">
+                            " onmouseover="this.style.background='linear-gradient(to right, #f0f0f0, #e0e0e0)'; this.style.color='black';" onmouseout="this.style.background='linear-gradient(to right, blue, white )'; this.style.color='white';">
                                     Read More
                                 </a>
                                 </div>
@@ -144,10 +144,10 @@ Layanan Jasa Konstruksi
                     
                     <div class="service-content">
                         <img src="/assets/bahan2/img/s3.svg"/>
-                        <h3>Infrastruktur Industri</h3>
-                        <p style="color: darkgreen; text-align: justify;">
+                        <h3>Jasa Konstruksi</h3>
+                        <!-- <p style="color: darkgreen; text-align: justify;">
                             Infrastruktur industri mencakup pabrik, gudang, jalur distribusi, dan fasilitas produksi yang mendukung manufaktur dan logistik. Ini penting untuk efisiensi operasional, peningkatan produktivitas, dan mendukung pertumbuhan ekonomi serta daya saing industri.
-                        </p>
+                        </p> -->
                         <a href="/404" style="
                         font-family: 'Lato', sans-serif;
                         font-weight: 700;
@@ -162,7 +162,7 @@ Layanan Jasa Konstruksi
                         width: 500px;
                         background: linear-gradient(to right, #f0f0f0, #e0e0e0);
                         transition: background 0.5s ease, color 0.5s ease;
-                    " onmouseover="this.style.background='linear-gradient(to right, #f0f0f0, #e0e0e0)'; this.style.color='black';" onmouseout="this.style.background='linear-gradient(to right, black, yellow )'; this.style.color='white';">
+                    " onmouseover="this.style.background='linear-gradient(to right, #f0f0f0, #e0e0e0)'; this.style.color='black';" onmouseout="this.style.background='linear-gradient(to right, blue, white )'; this.style.color='white';">
                             Read More
                         </a>
                         </div>
@@ -176,10 +176,10 @@ Layanan Jasa Konstruksi
                     </div>
                         <div class="service-content">
                       <img src="/assets/bahan2/img/s4.svg"/>
-                        <h3>Teknik Konstruksi</h3>
-                        <p style="color: darkgreen; text-align: justify;" >
+                        <h3>Reparasi Kendaraan</h3>
+                        <!-- <p style="color: darkgreen; text-align: justify;" >
                             Teknik konstruksi mencakup perencanaan, desain, dan pengelolaan proyek pembangunan infrastruktur. Ini melibatkan penggunaan teknologi dan metodologi untuk memastikan konstruksi yang efisien, aman, dan sesuai spesifikasi, mendukung pertumbuhan ekonomi dan pembangunan berkelanjutan.
-                        </p>
+                        </p> -->
                         <a href="/404" style="
                         font-family: 'Lato', sans-serif;
                         font-weight: 700;
@@ -194,7 +194,7 @@ Layanan Jasa Konstruksi
                         width: 500px;
                         background: linear-gradient(to right, #f0f0f0, #e0e0e0);
                         transition: background 0.5s ease, color 0.5s ease;
-                    " onmouseover="this.style.background='linear-gradient(to right, #f0f0f0, #e0e0e0 )'; this.style.color='black';" onmouseout="this.style.background='linear-gradient(to right, black, yellow )'; this.style.color='white';">
+                    " onmouseover="this.style.background='linear-gradient(to right, #f0f0f0, #e0e0e0 )'; this.style.color='black';" onmouseout="this.style.background='linear-gradient(to right, blue, white )'; this.style.color='white';">
                             Read More
                         </a>
                         </div>
@@ -208,10 +208,10 @@ Layanan Jasa Konstruksi
                     </div>
                             <div class="service-content">
                             <img src="/assets/bahan2/img/s5.svg"/>
-                            <h3>Teknik Struktur</h3>
-                            <p style="color: darkgreen; text-align: justify;">
+                            <h3>Produk Pertanian</h3>
+                            <!-- <p style="color: darkgreen; text-align: justify;">
                                 Teknik struktur mencakup perencanaan, analisis, dan desain struktur bangunan seperti gedung dan jembatan. Ini berkaitan dengan aspek kekuatan, stabilitas, dan keselamatan, yang krusial untuk memastikan kehandalan dan keberlanjutan konstruksi infrastruktur yang mendukung kehidupan sehari-hari dan pertumbuhan ekonomi masyarakat.
-                            </p>
+                            </p> -->
                             
                             <a href="/404" style="
                             font-family: 'Lato', sans-serif;
@@ -227,7 +227,7 @@ Layanan Jasa Konstruksi
                             width: 500px;
                             background: linear-gradient(to right, #f0f0f0, #e0e0e0);
                             transition: background 0.5s ease, color 0.5s ease;
-                        " onmouseover="this.style.background='linear-gradient(to right, #f0f0f0, #e0e0e0 )'; this.style.color='black';" onmouseout="this.style.background='linear-gradient(to right, black, yellow)'; this.style.color='white';">
+                        " onmouseover="this.style.background='linear-gradient(to right, #f0f0f0, #e0e0e0 )'; this.style.color='black';" onmouseout="this.style.background='linear-gradient(to right, blue, white)'; this.style.color='white';">
                                 Read More
                             </a>
                             </div>
@@ -240,10 +240,10 @@ Layanan Jasa Konstruksi
                     </div>
                     <div class="service-content">
                     <img src="/assets/bahan2/img/s6.svg"/>
-                    <h3>Teknik Rekayasa Air & Limbah</h3>
-                    <p style="color: darkgreen; text-align: justify;">
+                    <h3>Produk Pertanian</h3>
+                    <!-- <p style="color: darkgreen; text-align: justify;">
                         Teknik Rekayasa Air & Limbah mencakup perencanaan, desain, dan manajemen sistem air bersih dan limbah. Fokusnya adalah penggunaan teknologi untuk pengolahan air dan pengelolaan limbah, yang krusial untuk mendukung kehidupan sehat dan lingkungan yang berkelanjutan dalam masyarakat dan industri.
-                    </p>
+                    </p> -->
 
                       <a href="/404" style="
                             font-family: 'Lato', sans-serif;
@@ -259,7 +259,7 @@ Layanan Jasa Konstruksi
                             width: 500px;
                             background: linear-gradient(to right, #f0f0f0, #e0e0e0);
                             transition: background 0.5s ease, color 0.5s ease;
-                        " onmouseover="this.style.background='linear-gradient(to right, #f0f0f0, #e0e0e0)'; this.style.color='black';" onmouseout="this.style.background='linear-gradient(to right, black, yellow)'; this.style.color='white';">
+                        " onmouseover="this.style.background='linear-gradient(to right, #f0f0f0, #e0e0e0)'; this.style.color='black';" onmouseout="this.style.background='linear-gradient(to right, blue, white)'; this.style.color='white';">
                                 Read More
                             </a>
 
@@ -284,13 +284,13 @@ Layanan Jasa Konstruksi
     <div class="col-lg-5 offset-lg-1 p-0">
     <div class="facililties-text pt-100 pb-70">
     <div class="section-title">
-    {{-- <span>Fasilitas Layanan</span> --}}
-    <h2>Faslilitas Layanan Konstruksi</h2>
+    {{-- <span>Fasilitas Layanan Persada Umat</span> --}}
+    <h2>Faslilitas Layanan Persada Umat</h2>
     <p>
-        Fasilitas layanan konstruksi mencakup perencanaan, desain, pembangunan, dan pemeliharaan bangunan serta infrastruktur, memastikan proyek selesai tepat waktu, sesuai anggaran, dan memenuhi standar kualitas serta keselamatan.
+        <!-- Fasilitas layanan konstruksi mencakup perencanaan, desain, pembangunan, dan pemeliharaan bangunan serta infrastruktur, memastikan proyek selesai tepat waktu, sesuai anggaran, dan memenuhi standar kualitas serta keselamatan. -->
         </div>
     <ul>
-    <li>Kontraktor</li>
+    <!-- <li>Kontraktor</li>
     <li>Konsultan Perencana</li>
     <li>Konsultan Desain</li>
     <li>Manajemen Proyek</li>
@@ -299,7 +299,7 @@ Layanan Jasa Konstruksi
     <li>Penyedia Peralatan</li>
     <li>Tenaga Kerja</li>
     <li>Layanan Inspeksi Lapangan</li>
-    <li>Pemeliharaan dan Perbaikan</li>
+    <li>Pemeliharaan dan Perbaikan</li> -->
     </ul>
     <div style="margin-top: 25px;" >
     
@@ -457,7 +457,7 @@ Layanan Jasa Konstruksi
   {{-- ------------------------------------------------------------------------------------------ --}}
   {{-- ------------------------------------------------------------------------------------------ --}}
 
-     <section id="sec-5">
+     <!-- <section id="sec-5">
         <div class="container">
             <h1 style="
             font-family: 'Lato', sans-serif;
@@ -648,7 +648,7 @@ Layanan Jasa Konstruksi
         </div>
         
 
-    </section> 
+    </section>  -->
 
     {{-- ------------------------------------------------------------------------------- --}}
     {{-- ------------------------------------------------------------------------------- --}}
@@ -658,7 +658,7 @@ Layanan Jasa Konstruksi
 
 
 
-@include('frontend.00_atas.footer1')
+<!-- @include('frontend.00_atas.footer1') -->
 
     {{-- ------------------------------------------------------------------------------- --}}
     {{-- ------------------------------------------------------------------------------- --}}
