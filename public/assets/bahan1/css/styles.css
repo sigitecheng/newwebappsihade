@@ -78,12 +78,13 @@ html {
     --textaccent2: #fff;
     --textaccent3: #fff;
     --txtaccent4: #000;
-    --txtaccent5: #E5E5E5;
-    --haccent: #FFCB0F;
-    --haccent_withOpacity: rgba(255, 203, 15,0.6);
-    --haccent2: #C79E23;
-    --bgaccent: #1A1C27;
-    --bgaccent_withOpacity: rgba(26, 28, 39,0.96);
+    --txtaccent5: #E5E5E5; /* tidak berubah */
+    --haccent: #2196F3; /* biru tua */
+    --haccent_withOpacity: rgba(33, 150, 243, 0.6); /* biru tua dengan opacity */
+    --haccent2: #64B5F6; /* biru muda */
+    --bgaccent: #0D47A1; /* biru tua */
+    --bgaccent_withOpacity: rgba(13, 71, 161, 0.96); /* biru tua dengan opacity */
+
 }
 .container{
     width: 95%;
@@ -92,7 +93,8 @@ html {
 }
 /* SECTION ZERO = LANDING VIEW */
 #sec-0{
-    background: linear-gradient(rgba(255,255,0,0.8),rgba(0,0,0,0.8)), url(../Images/banner.jpg) no-repeat top center/cover;
+    background: linear-gradient(rgba(33, 150, 243, 0.8), rgba(144, 202, 249, 0.8)), url(../Images/banner.jpg) no-repeat top center/cover;
+
 }
 #sec-0 header.top {
     background-color: var(--haccent);

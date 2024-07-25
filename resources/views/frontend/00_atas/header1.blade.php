@@ -68,7 +68,7 @@
         }
     </style>
      <div class="marquee-container">
-        <div class="marquee" style="color: white">Selamat Datang ! di Web Resmi Sistem Informasi Pembina Jasa Konstruksi Pemerintah Kabupaten Bandung Barat</div>
+        <div class="marquee" style="color: white">Selamat Datang ! di Web Persada Umat</div>
     </div>
     
         {{-- <p>Jam </p> --}}
