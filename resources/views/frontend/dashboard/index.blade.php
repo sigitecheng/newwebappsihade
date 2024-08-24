@@ -58,9 +58,37 @@
 
 Pupuk Hayati mendukung pertumbuhan tanaman yang lebih sehat dan meningkatkan kualitas tanah, menjadikannya pilihan ideal untuk menciptakan lingkungan yang lebih subur dan berkelanjutan. Pilih pupuk hayati untuk masa depan bumi yang lebih baik.
                         </p>
-                        <a href="#about" class="button button--flex">
-                            Brosure<i class="ri-arrow-right-down-line button__icon"></i>
-                        </a>
+                        
+                        @foreach ($data as $item)
+    <!-- Link untuk mengunduh atau melihat brosur PDF -->
+    <a href="{{ $item->brosur }}" class="button button--flex" target="_blank" download id="download-link-{{ $loop->index }}">
+        Brosure<i class="ri-arrow-right-down-line button__icon"></i>
+    </a>
+@endforeach
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    @foreach ($data as $index => $item)
+        // Mendapatkan elemen link unduhan berdasarkan ID
+        const link = document.getElementById('download-link-{{ $index }}');
+
+        // Menambahkan event listener untuk mengunduh file
+        link.addEventListener('click', function(event) {
+            event.preventDefault(); // Mencegah tindakan default (navigasi)
+
+            // Membuat elemen <a> untuk memicu unduhan
+            const a = document.createElement('a');
+            a.href = this.href;
+            a.download = ''; // Nama file default untuk unduhan
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+        });
+    @endforeach
+});
+</script>
+
+
                     </div>
 
                     <div class="home__social">

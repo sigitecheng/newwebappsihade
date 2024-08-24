@@ -19,8 +19,8 @@ class DatabaseSeeder extends Seeder
 
 
         brosur::create([
-            'kecamatan' => 'Cililin',
-            'foto' => '/assets/file/BROSURE_SIHADE.pdf',
+            'judul' => 'Brosur Sihade',
+            'brosur' => '/assets/file/BROSURE_SIHADE.pdf',
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now(),
             'deleted_at' => null, // Jika Anda menggunakan soft deletes
