@@ -12,6 +12,4 @@ class brosur extends Model
     use HasFactory, SoftDeletes, HasApiTokens;
 
     // protected $guarded = ['id'];
-
-
 }
