@@ -24,10 +24,11 @@
                         <li class="nav__item">
                             <a href="#contact" class="nav__link">KONTAK KAMI</a>
                         </li>
+                        
                     </ul>
 
                     <div class="nav__close" id="nav-close">
-                        <i class="ri-close-line"></i>
+                        <i class="ri-close-line">Login</i>
                     </div>
                 </div>
 
@@ -447,7 +448,15 @@ document.addEventListener('DOMContentLoaded', function() {
                     <a href="#" class="footer__logo">
                         <i class="ri-leaf-line footer__logo-icon"></i> SIHADE
                     </a>
-
+                    
+                    <a href="#" class="footer__logo">
+                        <i class="ri-leaf-line footer__logo-icon"></i> SIHADE
+                    </a>
+                    
+                    <a href="#" class="footer__logo">
+                        <i class="ri-leaf-line footer__logo-icon"></i> SIHADE
+                    </a>
+                    
                     <h3 class="footer__title">
                         Subscribe to our newsletter <br> to stay update
                     </h3>
@@ -506,6 +515,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 </div>
             </div>
 
-            <p class="footer__copy">&#169; Bedimcode. All rigths reserved</p>
+            <p class="footer__copy">&#169; @2024 Designed By <a href="https://wa.me/081321455855" target="_blank">Sarigit.com</a></p>
    
             @include('frontend.footer')
