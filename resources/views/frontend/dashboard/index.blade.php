@@ -60,7 +60,7 @@
 Pupuk Hayati mendukung pertumbuhan tanaman yang lebih sehat dan meningkatkan kualitas tanah, menjadikannya pilihan ideal untuk menciptakan lingkungan yang lebih subur dan berkelanjutan. Pilih pupuk hayati untuk masa depan bumi yang lebih baik.
                         </p>
                         
-                        @foreach ($data_awal as $item)
+                        @foreach ($data_berkas as $item)
     <!-- Link untuk mengunduh atau melihat brosur PDF -->
     <a href="{{ $item->brosur }}" class="button button--flex" target="_blank" download id="download-link-{{ $loop->index }}">
         Brosure<i class="ri-arrow-right-down-line button__icon"></i>
@@ -69,7 +69,7 @@ Pupuk Hayati mendukung pertumbuhan tanaman yang lebih sehat dan meningkatkan kua
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    @foreach ($data_awal as $index => $item)
+    @foreach ($data_berkas as $index => $item)
         // Mendapatkan elemen link unduhan berdasarkan ID
         const link = document.getElementById('download-link-{{ $index }}');
 
