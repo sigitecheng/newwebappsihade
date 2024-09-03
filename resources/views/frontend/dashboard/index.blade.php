@@ -56,8 +56,8 @@
                             <div class="center-desk">
                                 <div class="logo">
                                     <a href="index.html">
-                                        <img src="/assets/brosur/faviconiconsihade.png" alt="#" style="width: 5vw; height: 10vh;">
-                                        <img src="/assets/brosur/neworganik.png" alt="#" style="width: 11vw; height: 10vh;">
+                                        <img src="/assets/brosur/sihadetext.png" alt="#" style="width: 15vw; height: 10vh;">
+                                        {{-- <img src="/assets/brosur/neworganik.png" alt="#" style="width: 11vw; height: 10vh;"> --}}
                                         
                                     </a>
                                 </div>
@@ -127,7 +127,7 @@
 
                     <div class="container">
                         <div class="carousel-caption relative">
-                            <h1 style="font-size:60px; color:black;">Sihade</h1>
+                            {{-- <h1 style="font-size:60px; color:black;">Sihade</h1> --}}
                             <span>Industri Pupuk Alam Hara Makro</span>
                             
                             <p style="color: black;">Industri pupuk memainkan peran krusial dalam pertanian modern dengan menyediakan hara makro yang diperlukan tanaman untuk tumbuh optimal. Pupuk alam, sebagai alternatif non-sintetis, menawarkan solusi berkelanjutan yang memanfaatkan sumber daya alami untuk meningkatkan kualitas tanah dan hasil panen. Penggunaan pupuk makro ini memastikan bahwa tanaman mendapatkan nutrisi esensial secara seimbang, mendukung produktivitas pertanian dengan cara yang ramah lingkungan.</p>
@@ -157,7 +157,7 @@
                     <img class="second-slide" src="/assets/moon/images/slide2.jpg" alt="Second slide" style="width: 100vw; height: 100vh; object-fit: cover;">
                     <div class="container">
                         <div class="carousel-caption relative">
-                            <h1 style="font-size: 60px; color:black;">Sihade</h1>
+                            {{-- <h1 style="font-size: 60px; color:black;">Sihade</h1> --}}
                             <span>Industri Pupuk Berkelanjutan Hara Makro</span>
                             <p style="color: black;">Dalam industri pupuk, penggunaan hara makro dari sumber alam menjadi semakin penting untuk mendukung pertanian yang berkelanjutan. Pupuk yang berbasis alam, berbeda dari pupuk sintetis, memanfaatkan bahan-bahan alami untuk memperbaiki kesuburan tanah dan meningkatkan hasil panen. Dengan pendekatan ini, tanaman mendapatkan nutrisi penting yang dibutuhkan secara seimbang, menjaga produktivitas pertanian sambil mengurangi dampak lingkungan.</p>
                             {{-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi </p> --}}
@@ -187,7 +187,7 @@
                     <img class="third-slide" src="/assets/moon/images/slide3.jpg" alt="Third slide" style="width: 100vw; height: 100vh; object-fit: cover;">
                     <div class="container">
                         <div class="carousel-caption relative">
-                            <h1 style="font-size: 60px; ">Sihade</h1>
+                            {{-- <h1 style="font-size: 60px; ">Sihade</h1> --}}
                             <span>Industri Pupuk Berbasis Alam Nutrisi</span>
                             <p>Industri pupuk berfokus pada penyediaan hara makro yang vital untuk pertumbuhan tanaman, dengan pupuk alam menawarkan alternatif yang lebih ramah lingkungan dibandingkan dengan pupuk sintetis. Pupuk berbasis alam memanfaatkan bahan alami untuk meningkatkan kualitas tanah dan mendukung kesehatan tanaman. Dengan menggunakan pupuk ini, petani dapat mencapai hasil panen yang optimal sambil menjaga keseimbangan ekosistem dan mengurangi dampak negatif terhadap lingkungan.</p>
                             {{-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi </p> --}}
@@ -230,9 +230,11 @@
 
                 <div class="col-xl-5 col-lg-5 col-md-5 co-sm-l2">
                     <div class="about_box">
-                        <h2>About moon<br><strong class="black"> Farm and company</strong></h2>
-                        <p>dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex</p>
-                        <a href="#">Read More</a>
+                        <h2>Tentang Sihade<br><strong class="black">Organic Fertilizer</strong></h2>
+                        {{-- <p>dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex</p> --}}
+                      <p style="text-align: justify;">                        
+                        Pupuk organik adalah bahan alami seperti kompos atau pupuk kandang yang digunakan untuk memperbaiki kualitas tanah dan memberi nutrisi pada tanaman. Berbeda dari pupuk kimia, pupuk organik memperbaiki struktur tanah, meningkatkan kapasitas penahanan air, dan mendukung mikroorganisme tanah, sehingga tanah menjadi lebih subur, ramah lingkungan, dan mendukung pertumbuhan tanaman secara berkelanjutan. Penggunaannya juga mengurangi dampak negatif terhadap ekosistem dan mengurangi pencemaran.
+                      </p>
                     </div>
                 </div>
                 <div class="col-xl-7 col-lg-7 col-md-7 co-sm-l2">
@@ -251,28 +253,28 @@
                 <div class="col-xl-3 col-lg-3 col-md-3 co-sm-l2">
                     <div class="for_box">
                         <i><img src="/assets/moon/images/1.png" alt="#"/></i>
-                        <span>1996923</span>
+                        <span>0</span>
                         <h3>Harvesta</h3>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-3 co-sm-l2">
                     <div class="for_box">
                         <i><img src="/assets/moon/images/2.png" alt="#"/></i>
-                        <span>8000</span>
+                        <span>0</span>
                         <h3>Units of Cattle</h3>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-3 co-sm-l2">
                     <div class="for_box">
                         <i><img src="/assets/moon/images/3.png" alt="#"/></i>
-                        <span>60002</span>
+                        <span>0</span>
                         <h3>Farm</h3>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-3 co-sm-l2">
                     <div class="for_box">
                         <i><img src="/assets/moon/images/4.png" alt="#"/></i>
-                        <span>1623</span>
+                        <span>0</span>
                         <h3>Units of Technic</h3>
                     </div>
                 </div>
@@ -286,7 +288,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="title">
-                        <h2>Special <strong class="black"> Offers</strong></h2>
+                        <h2>Layanan Kami<strong class="black"></strong></h2>
                     </div>
                 </div>
             </div>
@@ -296,29 +298,56 @@
                 <div class="row">
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 ">
                         <div class="offer_box">
-                            <h3>Agriculture Products</h3>
+                            <h3>Pupuk Organik Hayati</h3>
                             <figure><img src="/assets/moon/images/offer1.png" alt="img" /></figure>
-                            <p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+                            {{-- <p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p> --}}
+                            <p>
 
+                                Pupuk organik, seperti kompos atau pupuk kandang, meningkatkan kualitas tanah dan nutrisi tanaman. Berbeda dari pupuk kimia, ia memperbaiki struktur tanah dan mendukung mikroorganisme.                        
+</p>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 margin_ttt">
                         <div class="offer_box">
-                            <h3>Fresh Vegatables</h3>
+                            <h3>Booster Buah</h3>
                             <figure><img src="/assets/moon/images/offer2.png" alt="img" /></figure>
-                            <p>consectetur adipiscing elit, sed do eiusmodmpor incididunt ut labore et dolore magna aliqua. Ut enim ad</p>
+                            {{-- <p>consectetur adipiscing elit, sed do eiusmodmpor incididunt ut labore et dolore magna aliqua. Ut enim ad</p> --}}
+                            <p>
+                                Booster buah adalah produk yang meningkatkan pertumbuhan dan kualitas buah dengan menyediakan nutrisi tambahan. Ini membantu mempercepat pematangan, meningkatkan rasa, dan hasil panen.
+                            </p>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 margin-lkk">
                         <div class="offer_box">
-                            <h3>Farm Factory</h3>
-                            <figure><img src="/assets/moon/images/offer3.png" alt="img" /></figure>
-                            <p>consectetur adipiscing elit, sed do eiusmodmpor incididunt ut labore et dolore magna</p>
-                        </div>
+                            <h3>Evirofauna</h3>
+                            <figure><img src="/assets/brosur/cat.jpg" alt="img"  style="border-radius: 20px;" /></figure>
+                            <p>
+                            Bahan Organik murni untuk menghilangkan bau pada kotoran hewan peliharaan yang bekerja melalui proses dekomposisi dimana bahan kotoran akan terinkubasi secara biologi sehingga menjadikan hewan lebih sehat
+                            </p>
+                        
+                            </div>
                     </div>
 
                     <div class="col-md-12">
-                        <a class="read-more">See More</a>
+
+                    
+                        @foreach ($data as $item)
+                        <a class="read-more" href="{{ $item->brosur_sihade }}" download="{{ basename($item->brosur_sihade) }}" onclick="downloadFile('{{ $item->brosur_sihade }}'); return false;">See More</a>
+                        {{-- <a class="buynow ggg" href="https://wa.me/62811237916" target="_blank">Kontak Kami</a> --}}
+
+                    @endforeach
+                    
+                    <script>
+                    function downloadFile(url) {
+                        var link = document.createElement('a');
+                        link.href = url;
+                        link.download = url.substring(url.lastIndexOf('/') + 1);
+                        document.body.appendChild(link);
+                        link.click();
+                        document.body.removeChild(link);
+                    }
+                    </script>
+                    
                     </div>
                 </div>
             </div>
@@ -334,7 +363,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="title">
-                            <h2>Moon <strong class="black"> products</strong></h2>
+                            <h2>Sihade Produk<strong class="black"></strong></h2>
                         </div>
                     </div>
                 </div>
