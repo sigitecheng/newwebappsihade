@@ -63,8 +63,8 @@
                                 <li style="color: white;"><i class="fas fa-map-marker-alt me-2"></i> Jl.	Pelesiran	No.	20E, Kec.	Coblong,
                                     Kota	Bandung </li>
                                     <li>
-                                        <a href="https://wa.me/6281321455855" target="_blank" rel="noopener noreferrer" style="color: white;">
-                                          <i class="fas fa-phone-alt"></i> (+62) 81321455855
+                                        <a href="https://wa.me/62811237916" target="_blank" rel="noopener noreferrer" style="color: white;">
+                                          <i class="fas fa-phone-alt"></i> (+62) 811-237-916
                                         </a>
                                       </li>
                                       
