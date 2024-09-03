@@ -31,7 +31,7 @@ class DatabaseSeeder extends Seeder
             'daftar_merk' => '/assets/brosur/daftarmerk.pdf',
             'nib' => '/assets/brosur/nib.pdf',
             'surat_sihade' => '/assets/brosur/suratsihade.pdf',
-            'brosur_sihade' => '/assets/brosur/brosursihade.pdf',
+            'brosur_sihade' => '/assets/brosur/Brosur_Sihade.pdf',
             'gambar_sihade' => '/assets/brosur/sihade.png',
             
             'created_at' => Carbon::now(),
