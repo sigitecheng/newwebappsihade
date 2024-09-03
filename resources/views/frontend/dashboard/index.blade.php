@@ -159,8 +159,10 @@
                         <div class="carousel-caption relative">
                             <h1>Sihade</h1>
                             <span>Nutrisi Tanaman Terbaik, Alam dan Sintetis</span>
+
 <p>Perusahaan kami menawarkan solusi pupuk yang komprehensif, meliputi pupuk alami berbasis bahan organik dan pupuk sintetis yang dikembangkan secara kimiawi untuk hasil optimal. Kami mengutamakan penyediaan hara makro seperti nitrogen, fosfor, dan kalium yang krusial bagi pertumbuhan tanaman, serta **hara primer** untuk memenuhi kebutuhan nutrisi dasar secara efisien. Dengan menggabungkan kedua jenis pupuk ini, kami berkomitmen untuk mendukung praktik pertanian berkelanjutan dan meningkatkan hasil panen secara menyeluruh.</p>
                             {{-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi </p> --}}
+                            
                             <a class="buynow" href="#about">About us</a><a class="buynow ggg" href="#">Get a quote</a>
 
                         </div>
@@ -170,10 +172,12 @@
                     <img class="third-slide" src="/assets/moon/images/banner.jpg" alt="Third slide">
                     <div class="container">
                         <div class="carousel-caption relative">
-                            <h1>Moon</h1>
-                            <span>FARMING COMPANY</span>
+                            <h1>Sihade</h1>
+                            <span>Solusi Pupuk: Alami, Sintetis, dan Berkualitas</span>
 
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi </p>
+                               <p>Perusahaan kami menyediakan berbagai solusi pupuk yang menyeluruh, termasuk pupuk alami berbasis bahan organik dan pupuk sintetis yang dirancang khusus untuk memberikan hasil terbaik. Kami fokus pada penyediaan hara makro seperti nitrogen, fosfor, dan kalium yang sangat penting untuk pertumbuhan optimal tanaman, serta hara primer untuk memenuhi kebutuhan nutrisi dasar secara efektif. Dengan memadukan kedua jenis pupuk ini, kami berkomitmen untuk mendukung pertanian berkelanjutan dan meningkatkan produktivitas hasil panen secara keseluruhan.</p> 
+                            {{-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi </p> --}}
+                            
                             <a class="buynow" href="#about">About us</a><a class="buynow ggg" href="#">Get a quote</a>
 
                         </div>
