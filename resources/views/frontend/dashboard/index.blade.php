@@ -55,7 +55,11 @@
                         <div class="full">
                             <div class="center-desk">
                                 <div class="logo">
-                                    <a href="index.html"><img src="/assets/moon/images/logo.png" alt="#"></a>
+                                    <a href="index.html">
+                                        <img src="/assets/brosur/faviconiconsihade.png" alt="#" style="width: 5vw; height: 10vh;">
+                                        <img src="/assets/brosur/neworganik.png" alt="#" style="width: 11vw; height: 10vh;">
+                                        
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -128,9 +132,24 @@
                             
                             <p style="color: black;">Industri pupuk memainkan peran krusial dalam pertanian modern dengan menyediakan hara makro yang diperlukan tanaman untuk tumbuh optimal. Pupuk alam, sebagai alternatif non-sintetis, menawarkan solusi berkelanjutan yang memanfaatkan sumber daya alami untuk meningkatkan kualitas tanah dan hasil panen. Penggunaan pupuk makro ini memastikan bahwa tanaman mendapatkan nutrisi esensial secara seimbang, mendukung produktivitas pertanian dengan cara yang ramah lingkungan.</p>
 
-                            <a class="buynow" href="#about">Brosur</a><a class="buynow ggg" href="https://wa.me/62811237916" target="_blank">Kontak Kami</a>
+                            @foreach ($data as $item)
+                            <a class="buynow" href="{{ $item->brosur_sihade }}" download="{{ basename($item->brosur_sihade) }}" onclick="downloadFile('{{ $item->brosur_sihade }}'); return false;">Brosur</a>
+                            <a class="buynow ggg" href="https://wa.me/62811237916" target="_blank">Kontak Kami</a>
 
-
+                        @endforeach
+                        
+                        <script>
+                        function downloadFile(url) {
+                            var link = document.createElement('a');
+                            link.href = url;
+                            link.download = url.substring(url.lastIndexOf('/') + 1);
+                            document.body.appendChild(link);
+                            link.click();
+                            document.body.removeChild(link);
+                        }
+                        </script>
+                        
+                                
                         </div>
                     </div>
                 </div>
