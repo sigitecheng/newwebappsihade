@@ -11,10 +11,10 @@ class SihadeController extends Controller
     //
     public function index()
     {
-        $data_berkas = berkasberkas::all();
+        // $data_berkas = berkasberkas::all();
         return view('frontend.dashboard.index', [
             'title' => 'Sihade',
-            'data_berkas' => $data_berkas,
+            // 'data_berkas' => $data_berkas,
         ]);
     }
     
