@@ -27,13 +27,17 @@ class DatabaseSeeder extends Seeder
         //     'deleted_at' => null, // Jika Anda menggunakan soft deletes
         // ]);
 
-        // berkasberkas::create([
-        //     'judul' => 'Brosur Sihade',
-        //     'brosur' => '/assets/file/BROSURE_SIHADE.pdf',
-        //     'created_at' => Carbon::now(),
-        //     'updated_at' => Carbon::now(),
-        //     'deleted_at' => null, // Jika Anda menggunakan soft deletes
-        // ]);
+       brosur::create([
+            'daftar_merk' => '/assets/brosur/daftarmerk.pdf',
+            'nib' => '/assets/brosur/nib.pdf',
+            'surat_sihade' => '/assets/brosur/suratsihade.pdf',
+            'brosur_sihade' => '/assets/brosur/brosursihade.pdf',
+            'gambar_sihade' => '/assets/brosur/sihade.png',
+            
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now(),
+            'deleted_at' => null, // Jika Anda menggunakan soft deletes
+        ]);
     }
 
 
