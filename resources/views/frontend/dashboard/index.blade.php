@@ -10,7 +10,7 @@
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <!-- site metas -->
     <title>Sihade</title>
-    <meta name="keywords" content="">   
+    <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- bootstrap css -->
@@ -20,12 +20,11 @@
     <!-- Responsive-->
     <link rel="stylesheet" href="/assets/moon/css/responsive.css">
     <!-- fevicon -->
-    <link rel="icon" href="/assets/moon/images/fevicon.png" type="/assets/moon/image/gif" />
+    <link rel="icon" href="/assets/moon/images/fevicon.png" type="image/gif" />
     <!-- Scrollbar Custom CSS -->
     <link rel="stylesheet" href="/assets/moon/css/jquery.mCustomScrollbar.min.css">
 
-    <!-- Pastikan Anda telah menambahkan link Font Awesome di bagian <head> -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
     <!-- Tweaks for older IEs-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -59,49 +58,24 @@
                         </div>
                     </div>
                     <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
-                        <!-- Pastikan Anda telah menambahkan link Font Awesome di bagian <head> -->
-{{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> --}}
-
-<div class="social_icons_bottom_tt">
-    <ul>
-        <li><a href="https://www.facebook.com/yourprofile" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-        <li><a href="https://twitter.com/yourprofile" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
-        <li><a href="https://www.tiktok.com/@yourprofile" target="_blank" title="TikTok"><i class="fab fa-tiktok"></i></a></li>
-        <li><a href="https://www.youtube.com/channel/yourchannel" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a></li>
-        <li><a href="mailto:sihadenew@gmail.com" title="Email"><i class="fas fa-envelope"></i></a></li>
-        <li><a href="https://www.instagram.com/yourprofile" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>
-        <li><a href="https://www.instagram.com/yourprofile" target="_blank" title="Instagram" style="margin-left: 500px;"> <i class="fa fa-sign-in"></i></a></li>
-    
-    </ul>
-</div>
-
-<!-- Pastikan untuk menambahkan CSS untuk mengatur tampilan ikon -->
-<style>
-    .social_icons_bottom_tt ul {
-        list-style: none;
-        padding: 0;
-        display: flex;
-        gap: 25px;
-        color: white; /* Jarak antar ikon */
-    }
-    .social_icons_bottom_tt li {
-        font-size: 24px;
-        color: white; /* Ukuran ikon */
-    }
-    .social_icons_bottom_tt a {
-        color: white; /* Warna ikon */
-        text-decoration: none;
-    }
-    .social_icons_bottom_tt a:hover {
-        color: green; /* Warna ikon saat hover */
-    }
-</style>
+                        <div class="location_icon_bottum_tt">
+                            <ul>
+                                <li style="color: white;"><i class="fas fa-map-marker-alt me-2"></i> Jl.	Pelesiran	No.	20E, Kec.	Coblong,
+                                    Kota	Bandung </li>
+                                    <li>
+                                        <a href="https://wa.me/6281321455855" target="_blank" rel="noopener noreferrer" style="color: white;">
+                                          <i class="fas fa-phone-alt"></i> (+62) 81321455855
+                                        </a>
+                                      </li>
+                                      
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12 location_icon_bottum">
                        <div class="row">
-                            <div class="col-md-8 ">
+                            <div class="col-md-12 ">
                                 <div class="menu-area">
                                     <div class="limit-box">
                                         <nav class="main-menu">
@@ -109,8 +83,9 @@
                                                 <li class="active"> <a href="index.html">Beranda</a> </li>
                                                 <li> <a href="#about">Tentang Kami</a> </li>
                                                 <li><a href="#product">Produk</a></li>
-                                                <li><a href="#testimonial">Berita</a></li>
+                                                <li><a href="#testimonial">Layanan</a></li>
                                                 <li><a href="#contact">Kontak Kami</a></li>
+                                                <li><a href="#contact"><i class="fas fa-sign-in-alt"></i></a></li>
 
                                             </ul>
                                         </nav>
@@ -118,12 +93,12 @@
                                 </div>
 
                             </div>
-                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+                            {{-- <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
                                 <form class="search">
                                     <input class="form-control" type="text" placeholder="Search">
                                     <button><img src="/assets/moon/images/search_icon.png"></button>
                                 </form>
-                            </div>
+                            </div> --}}
                        </div>
                     </div>
                 </div>
@@ -141,44 +116,43 @@
             </ul>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="first-slide" src="/assets/moon/images/banner.jpg" alt="First slide">
+                    <img class="first-slide" src="/assets/moon/images/newpembaruan.jpg" alt="First slide">
                     <div class="container">
                         <div class="carousel-caption relative">
-                            <h1>Sihade</h1>
-                            <span>Perusahaan Pupuk Alami, Sintetis, Hara Makro dan Primer</span>
-                            <p>Perusahaan kami menyediakan solusi pupuk lengkap dengan produk pupuk alami yang berbasis bahan organik dan pupuk sintetis yang dirancang secara kimiawi untuk hasil yang optimal. Kami fokus pada penyediaan hara makro seperti nitrogen, fosfor, dan kalium yang esensial untuk pertumbuhan tanaman, serta hara primer untuk memenuhi kebutuhan nutrisi dasar tanaman secara efektif. Dengan kombinasi produk ini, kami mendukung pertanian yang berkelanjutan dan meningkatkan hasil panen secara keseluruhan.</p>
-                            {{-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi </p> --}}
-                            <a class="buynow" href="#about">About us</a><a class="buynow ggg" href="#">Get a quote</a>
+                            <h1 style="font-size:60px;">Sihade</h1>
+                            <span>Industri Pupuk Alam Hara Makro</span>
+                            
+                            <p>Industri pupuk memainkan peran krusial dalam pertanian modern dengan menyediakan hara makro yang diperlukan tanaman untuk tumbuh optimal. Pupuk alam, sebagai alternatif non-sintetis, menawarkan solusi berkelanjutan yang memanfaatkan sumber daya alami untuk meningkatkan kualitas tanah dan hasil panen. Penggunaan pupuk makro ini memastikan bahwa tanaman mendapatkan nutrisi esensial secara seimbang, mendukung produktivitas pertanian dengan cara yang ramah lingkungan.</p>
+
+                            <a class="buynow" href="#about">Brosur</a><a class="buynow ggg" href="#">Kontak Kami</a>
 
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="second-slide" src="/assets/moon/images/banner.jpg" alt="Second slide">
+                    <img class="second-slide" src="/assets/moon/images/slide2.jpg" alt="Second slide">
                     <div class="container">
                         <div class="carousel-caption relative">
-                            <h1>Sihade</h1>
-                            <span>Nutrisi Tanaman Terbaik, Alam dan Sintetis</span>
-
-<p>Perusahaan kami menawarkan solusi pupuk yang komprehensif, meliputi pupuk alami berbasis bahan organik dan pupuk sintetis yang dikembangkan secara kimiawi untuk hasil optimal. Kami mengutamakan penyediaan hara makro seperti nitrogen, fosfor, dan kalium yang krusial bagi pertumbuhan tanaman, serta **hara primer** untuk memenuhi kebutuhan nutrisi dasar secara efisien. Dengan menggabungkan kedua jenis pupuk ini, kami berkomitmen untuk mendukung praktik pertanian berkelanjutan dan meningkatkan hasil panen secara menyeluruh.</p>
+                            <h1 style="font-size: 60px;">Sihade</h1>
+                            <span>Industri Pupuk Berkelanjutan Hara Makro</span>
+                            <p>Dalam industri pupuk, penggunaan hara makro dari sumber alam menjadi semakin penting untuk mendukung pertanian yang berkelanjutan. Pupuk yang berbasis alam, berbeda dari pupuk sintetis, memanfaatkan bahan-bahan alami untuk memperbaiki kesuburan tanah dan meningkatkan hasil panen. Dengan pendekatan ini, tanaman mendapatkan nutrisi penting yang dibutuhkan secara seimbang, menjaga produktivitas pertanian sambil mengurangi dampak lingkungan.</p>
                             {{-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi </p> --}}
-                            
-                            <a class="buynow" href="#about">About us</a><a class="buynow ggg" href="#">Get a quote</a>
+                          
+                            <a class="buynow" href="#about">Brosur</a><a class="buynow ggg" href="#">Kontak Kami</a>
 
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="third-slide" src="/assets/moon/images/banner.jpg" alt="Third slide">
+                    <img class="third-slide" src="/assets/moon/images/slide3.jpg" alt="Third slide">
                     <div class="container">
                         <div class="carousel-caption relative">
-                            <h1>Sihade</h1>
-                            <span>Solusi Pupuk: Alami, Sintetis, dan Berkualitas</span>
-
-                               <p>Perusahaan kami menyediakan berbagai solusi pupuk yang menyeluruh, termasuk pupuk alami berbasis bahan organik dan pupuk sintetis yang dirancang khusus untuk memberikan hasil terbaik. Kami fokus pada penyediaan hara makro seperti nitrogen, fosfor, dan kalium yang sangat penting untuk pertumbuhan optimal tanaman, serta hara primer untuk memenuhi kebutuhan nutrisi dasar secara efektif. Dengan memadukan kedua jenis pupuk ini, kami berkomitmen untuk mendukung pertanian berkelanjutan dan meningkatkan produktivitas hasil panen secara keseluruhan.</p> 
+                            <h1 style="font-size: 60px;">Sihade</h1>
+                            <span>Industri Pupuk Berbasis Alam Nutrisi</span>
+                            <p>Industri pupuk berfokus pada penyediaan hara makro yang vital untuk pertumbuhan tanaman, dengan pupuk alam menawarkan alternatif yang lebih ramah lingkungan dibandingkan dengan pupuk sintetis. Pupuk berbasis alam memanfaatkan bahan alami untuk meningkatkan kualitas tanah dan mendukung kesehatan tanaman. Dengan menggunakan pupuk ini, petani dapat mencapai hasil panen yang optimal sambil menjaga keseimbangan ekosistem dan mengurangi dampak negatif terhadap lingkungan.</p>
                             {{-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi </p> --}}
                             
-                            <a class="buynow" href="#about">About us</a><a class="buynow ggg" href="#">Get a quote</a>
+                            <a class="buynow" href="#about">Brosur</a><a class="buynow ggg" href="#">Kontak Kami</a>
 
                         </div>
                     </div>
@@ -591,7 +565,7 @@
     <script src="/assets/moon/js/jquery.mCustomScrollbar.concat.min.js"></script>
     <script src="/assets/moon/js/custom.js"></script>
     <!-- javascript -->
-    <script src="/assets/moon/js/owl.carousel.js"></script>
+    <script src="js/owl.carousel.js"></script>
     <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
     <script>
         $(document).ready(function() {
