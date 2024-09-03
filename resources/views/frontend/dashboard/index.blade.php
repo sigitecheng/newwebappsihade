@@ -116,26 +116,28 @@
             </ul>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="first-slide" src="/assets/moon/images/newpembaruan.jpg" alt="First slide">
+                    <img class="first-slide" src="/assets/moon/images/newpembaruan.jpg" alt="First slide" style="width: 100vw; height: 100vh; object-fit: cover;">
+
                     <div class="container">
                         <div class="carousel-caption relative">
-                            <h1 style="font-size:60px;">Sihade</h1>
+                            <h1 style="font-size:60px; color:black;">Sihade</h1>
                             <span>Industri Pupuk Alam Hara Makro</span>
                             
-                            <p>Industri pupuk memainkan peran krusial dalam pertanian modern dengan menyediakan hara makro yang diperlukan tanaman untuk tumbuh optimal. Pupuk alam, sebagai alternatif non-sintetis, menawarkan solusi berkelanjutan yang memanfaatkan sumber daya alami untuk meningkatkan kualitas tanah dan hasil panen. Penggunaan pupuk makro ini memastikan bahwa tanaman mendapatkan nutrisi esensial secara seimbang, mendukung produktivitas pertanian dengan cara yang ramah lingkungan.</p>
+                            <p style="color: black;">Industri pupuk memainkan peran krusial dalam pertanian modern dengan menyediakan hara makro yang diperlukan tanaman untuk tumbuh optimal. Pupuk alam, sebagai alternatif non-sintetis, menawarkan solusi berkelanjutan yang memanfaatkan sumber daya alami untuk meningkatkan kualitas tanah dan hasil panen. Penggunaan pupuk makro ini memastikan bahwa tanaman mendapatkan nutrisi esensial secara seimbang, mendukung produktivitas pertanian dengan cara yang ramah lingkungan.</p>
 
-                            <a class="buynow" href="#about">Brosur</a><a class="buynow ggg" href="#">Kontak Kami</a>
+                            <a class="buynow" href="#about">Brosur</a><a class="buynow ggg" href="https://wa.me/62811237916" target="_blank">Kontak Kami</a>
+
 
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="second-slide" src="/assets/moon/images/slide2.jpg" alt="Second slide">
+                    <img class="second-slide" src="/assets/moon/images/slide2.jpg" alt="Second slide" style="width: 100vw; height: 100vh; object-fit: cover;">
                     <div class="container">
                         <div class="carousel-caption relative">
-                            <h1 style="font-size: 60px;">Sihade</h1>
+                            <h1 style="font-size: 60px; color:black;">Sihade</h1>
                             <span>Industri Pupuk Berkelanjutan Hara Makro</span>
-                            <p>Dalam industri pupuk, penggunaan hara makro dari sumber alam menjadi semakin penting untuk mendukung pertanian yang berkelanjutan. Pupuk yang berbasis alam, berbeda dari pupuk sintetis, memanfaatkan bahan-bahan alami untuk memperbaiki kesuburan tanah dan meningkatkan hasil panen. Dengan pendekatan ini, tanaman mendapatkan nutrisi penting yang dibutuhkan secara seimbang, menjaga produktivitas pertanian sambil mengurangi dampak lingkungan.</p>
+                            <p style="color: black;">Dalam industri pupuk, penggunaan hara makro dari sumber alam menjadi semakin penting untuk mendukung pertanian yang berkelanjutan. Pupuk yang berbasis alam, berbeda dari pupuk sintetis, memanfaatkan bahan-bahan alami untuk memperbaiki kesuburan tanah dan meningkatkan hasil panen. Dengan pendekatan ini, tanaman mendapatkan nutrisi penting yang dibutuhkan secara seimbang, menjaga produktivitas pertanian sambil mengurangi dampak lingkungan.</p>
                             {{-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi </p> --}}
                           
                             <a class="buynow" href="#about">Brosur</a><a class="buynow ggg" href="#">Kontak Kami</a>
@@ -144,10 +146,10 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="third-slide" src="/assets/moon/images/slide3.jpg" alt="Third slide">
+                    <img class="third-slide" src="/assets/moon/images/slide3.jpg" alt="Third slide" style="width: 100vw; height: 100vh; object-fit: cover;">
                     <div class="container">
                         <div class="carousel-caption relative">
-                            <h1 style="font-size: 60px;">Sihade</h1>
+                            <h1 style="font-size: 60px; ">Sihade</h1>
                             <span>Industri Pupuk Berbasis Alam Nutrisi</span>
                             <p>Industri pupuk berfokus pada penyediaan hara makro yang vital untuk pertumbuhan tanaman, dengan pupuk alam menawarkan alternatif yang lebih ramah lingkungan dibandingkan dengan pupuk sintetis. Pupuk berbasis alam memanfaatkan bahan alami untuk meningkatkan kualitas tanah dan mendukung kesehatan tanaman. Dengan menggunakan pupuk ini, petani dapat mencapai hasil panen yang optimal sambil menjaga keseimbangan ekosistem dan mengurangi dampak negatif terhadap lingkungan.</p>
                             {{-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi </p> --}}
