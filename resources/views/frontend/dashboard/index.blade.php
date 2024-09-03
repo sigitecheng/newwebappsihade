@@ -162,8 +162,24 @@
                             <p style="color: black;">Dalam industri pupuk, penggunaan hara makro dari sumber alam menjadi semakin penting untuk mendukung pertanian yang berkelanjutan. Pupuk yang berbasis alam, berbeda dari pupuk sintetis, memanfaatkan bahan-bahan alami untuk memperbaiki kesuburan tanah dan meningkatkan hasil panen. Dengan pendekatan ini, tanaman mendapatkan nutrisi penting yang dibutuhkan secara seimbang, menjaga produktivitas pertanian sambil mengurangi dampak lingkungan.</p>
                             {{-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi </p> --}}
                           
-                            <a class="buynow" href="#about">Brosur</a><a class="buynow ggg" href="#">Kontak Kami</a>
+                            @foreach ($data as $item)
+                            <a class="buynow" href="{{ $item->brosur_sihade }}" download="{{ basename($item->brosur_sihade) }}" onclick="downloadFile('{{ $item->brosur_sihade }}'); return false;">Brosur</a>
+                            <a class="buynow ggg" href="https://wa.me/62811237916" target="_blank">Kontak Kami</a>
 
+                        @endforeach
+                        
+                        <script>
+                        function downloadFile(url) {
+                            var link = document.createElement('a');
+                            link.href = url;
+                            link.download = url.substring(url.lastIndexOf('/') + 1);
+                            document.body.appendChild(link);
+                            link.click();
+                            document.body.removeChild(link);
+                        }
+                        </script>
+                        
+                                
                         </div>
                     </div>
                 </div>
@@ -175,9 +191,25 @@
                             <span>Industri Pupuk Berbasis Alam Nutrisi</span>
                             <p>Industri pupuk berfokus pada penyediaan hara makro yang vital untuk pertumbuhan tanaman, dengan pupuk alam menawarkan alternatif yang lebih ramah lingkungan dibandingkan dengan pupuk sintetis. Pupuk berbasis alam memanfaatkan bahan alami untuk meningkatkan kualitas tanah dan mendukung kesehatan tanaman. Dengan menggunakan pupuk ini, petani dapat mencapai hasil panen yang optimal sambil menjaga keseimbangan ekosistem dan mengurangi dampak negatif terhadap lingkungan.</p>
                             {{-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi </p> --}}
-                            
-                            <a class="buynow" href="#about">Brosur</a><a class="buynow ggg" href="#">Kontak Kami</a>
+                          
+                            @foreach ($data as $item)
+                            <a class="buynow" href="{{ $item->brosur_sihade }}" download="{{ basename($item->brosur_sihade) }}" onclick="downloadFile('{{ $item->brosur_sihade }}'); return false;">Brosur</a>
+                            <a class="buynow ggg" href="https://wa.me/62811237916" target="_blank">Kontak Kami</a>
 
+                        @endforeach
+                        
+                        <script>
+                        function downloadFile(url) {
+                            var link = document.createElement('a');
+                            link.href = url;
+                            link.download = url.substring(url.lastIndexOf('/') + 1);
+                            document.body.appendChild(link);
+                            link.click();
+                            document.body.removeChild(link);
+                        }
+                        </script>
+                        
+                                
                         </div>
                     </div>
                 </div>
