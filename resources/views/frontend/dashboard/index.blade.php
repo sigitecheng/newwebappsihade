@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="/assets/moon/css/responsive.css">
     <!-- fevicon -->
     {{-- <link rel="icon" href="/assets/moon/images/fevicon.png" type="image/gif" /> --}}
-    <link rel="icon" href="/assets/brosur/faviconsihade.png" type="image/x-icon">
+    <link rel="icon" href="/assets/brosur/faviconiconsihade.png" type="image/x-icon">
 
 
     <!-- Scrollbar Custom CSS -->
