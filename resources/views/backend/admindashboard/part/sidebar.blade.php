@@ -21,7 +21,7 @@
                         .sbar {
                         color: navy; /* warna biru tua */
                         text-decoration: none; /* menghapus garis bawah default */
-                        background-image: linear-gradient(to right, darkblue, white); /* gradasi dari biru tua ke hitam */
+                        background-image: linear-gradient(to right, green, white); /* gradasi dari biru tua ke hitam */
                         background-size: 100% 200%; /* ukuran gradient vertikal */
                         background-position: 0 100%; /* posisi gradient dari bawah */
                         transition: background-position 0.3s, color 0.3s; /* animasi perubahan posisi latar belakang dan warna teks */
@@ -32,7 +32,7 @@
                         /* font-size: 12px; */
                         color: navy; /* warna biru tua */
                         text-decoration: none; /* menghapus garis bawah default */
-                        background-image: linear-gradient(to bottom, navy, black); /* gradasi dari biru tua ke hitam */
+                        background-image: linear-gradient(to bottom, green, black); /* gradasi dari biru tua ke hitam */
                         background-size: 100% 200%; /* ukuran gradient vertikal */
                         background-position: 0 100%; /* posisi gradient dari bawah */
                         transition: background-position 0.3s, color 0.3s; /* animasi perubahan posisi latar belakang dan warna teks */
@@ -41,7 +41,7 @@
 
                         /* Hover effect */
                         a:hover {
-                            background: linear-gradient(to right, #FFCB0F, black); /* gradasi dari kuning ke hitam */
+                            background: linear-gradient(to right, silver, black); /* gradasi dari kuning ke hitam */
                             background-size: 100% 200%; /* ukuran gradient vertikal */
                             background-position: 0 100%; /* posisi gradient dari bawah */
                             transition: background-position 0.3s, color 0.3s; /* animasi perubahan posisi latar belakang dan warna teks */
@@ -67,175 +67,60 @@
                                     <span class="none">DASHBOARD ADMIN</span>
                                 </a>
                             </li>
+                            <hr>
      
                             <li class="parent">
-                                <a href="#" onclick="toggle_menu('profil'); return false" class="sbar"><i class="fab fa-ravelry mr-2"></i>
-                                    <span>PROFIL<i class="fa fa-angle-down pull-right align-bottom " style="color: black;"></i></span>
+                                <a href="/beranda" class="sbar"><i class="fab fa-ravelry mr-2"> </i>
+                                    <span class="none">BERANDA</span>
                                 </a>
-                                <ul class="children" id="profil">
-                                    <li class="child">
-                                    
-                                        <a href="/struktur" style="font-size: 12px;">
-                                            <i class="fas fa-users mr-2" style="margin-left: 20px;"></i>STRUKTUR DINAS PEKERJAAN UMUM DAN PENATAAN RUANG KABUPATEN BANDUNG BARAT
-                                        </a>
-                    
-                                        <a href="/renstra" style="font-size: 12px;">
-                                            <i class="fas fa-users mr-2" style="margin-left: 20px;"></i>RENCANA STRATEGIS PROGRAM DAN JASA KONSTRUKSI  
-                                        </a>
-                    
-                                        <a href="/tupoksi" style="font-size: 12px;">
-                                            <i class="fas fa-users mr-2" style="margin-left: 20px;"></i>TUPOKSI PROGRAM DAN JASA KONSTRUKSI  
-                                        </a>
-                                                               
-                                    </li> 
-
-
-                                </ul>
                             </li>
      
                             <li class="parent">
-                                <a href="#" onclick="toggle_menu('berita'); return false" class="sbar"><i class="fab fa-ravelry mr-2"></i>
-                                    <span>BERITA<i class="fa fa-angle-down pull-right align-bottom " style="color: black;"></i></span>
+                                <a href="/tentangkami" class="sbar"><i class="fab fa-ravelry mr-2"> </i>
+                                    <span class="none">TENTANG KAMI</span>
                                 </a>
-                                <ul class="children" id="berita">
-                                    <li class="child">
-                                    
-                                        <a href="/404" style="font-size: 12px;">
-                                            <i class="fas fa-file mr-2" style="margin-left: 20px;"></i>BERITA
-                                        </a>
-                                            
-                                        <a href="/404" style="font-size: 12px;">
-                                            <i class="fas fa-file mr-2" style="margin-left: 20px;"></i>AGENDA
-                                        </a>
-                                            
-                                    </li> 
-
-
-                                </ul>
                             </li>
-                         
-
+     
                             <li class="parent">
-                                <a href="#" onclick="toggle_menu('datajakon'); return false" class="sbar"><i class="fab fa-ravelry mr-2"></i>
-                                    <span>DATA JASA KONSTRUKSI<i class="fa fa-angle-down pull-right align-bottom " style="color: black;"></i></span>
+                                <a href="/produk" class="sbar"><i class="fab fa-ravelry mr-2"> </i>
+                                    <span class="none">PRODUK</span>
                                 </a>
-                                <ul class="children" id="datajakon">
-                                    <li class="child">
-                                    
-                                        <a href="/404" style="font-size: 12px;">
-                                            <i class="fas fa-file mr-2" style="margin-left: 20px;"></i>ASOSIASI
-                                        </a>
-                                            
-                                        <a href="/404" style="font-size: 12px;">
-                                            <i class="fas fa-file mr-2" style="margin-left: 20px;"></i>STANDAR BIAYA UMUM
-                                        </a>
-                                            
-                                        <a href="/404" style="font-size: 12px;">
-                                            <i class="fas fa-file mr-2" style="margin-left: 20px;"></i>PROGRESS PAKET PEKERJAAN
-                                        </a>
-                                            
-                                    </li> 
-
-
-                                </ul>
                             </li>
-                         
-
-
-
+     
                             <li class="parent">
-                                <a href="#" onclick="toggle_menu('tenagakerja'); return false" class="sbar"><i class="fab fa-ravelry mr-2"></i>
-                                    <span>TENAGA KERJA<i class="fa fa-angle-down pull-right align-bottom " style="color: black;"></i></span>
+                                <a href="/produk" class="sbar"><i class="fab fa-ravelry mr-2"> </i>
+                                    <span class="none">LAYANAN</span>
                                 </a>
-                                <ul class="children" id="tenagakerja">
-                                    <li class="child">
-                                    
-                                        <a href="/beskktenagakerja" style="font-size: 12px;">
-                                            <i class="fas fa-file mr-2" style="margin-left: 20px;"></i>SERTIFIKAT KETERAMPILAN KERJA
-                                        </a>
-                                            
-                                        <a href="/404" style="font-size: 12px;">
-                                            <i class="fas fa-file mr-2" style="margin-left: 20px;"></i>PENANGGUNG JAWAB TEKNIS
-                                        </a>
-                                            
-                                        <a href="/404" style="font-size: 12px;">
-                                            <i class="fas fa-file mr-2" style="margin-left: 20px;"></i>PEMBINA JASA KONSTRUKSI
-                                        </a>
-                                            
-                                    </li> 
-
-
-                                </ul>
-                            </li>
-
-                            <li class="parent">
-                                <a href="#" onclick="toggle_menu('spm'); return false" class="sbar"><i class="fab fa-ravelry mr-2"></i>
-                                    <span>SPM<i class="fa fa-angle-down pull-right align-bottom " style="color: black;"></i></span>
-                                </a>
-                                <ul class="children" id="spm">
-                                    <li class="child">
-                                                                             
-                                        <a href="/404" style="font-size: 12px;">
-                                            <i class="fas fa-file mr-2" style="margin-left: 20px;"></i>INFORMASI SPM
-                                        </a>
-                                            
-                                        <a href="/404" style="font-size: 12px;">
-                                            <i class="fas fa-file mr-2" style="margin-left: 20px;"></i>LAPORAN SPM 
-                                        </a>
-                                            
-                                    </li> 
-
-
-                                </ul>
-                            </li>
-                         
-
-                            <li class="parent">
-                                <a href="#" onclick="toggle_menu('dukunganusaha'); return false" class="sbar"><i class="fab fa-ravelry mr-2"></i>
-                                    <span>DUKUNGAN USAHA<i class="fa fa-angle-down pull-right align-bottom " style="color: black;"></i></span>
-                                </a>
-                                <ul class="children" id="dukunganusaha">
-                                    <li class="child">
-                                                                             
-                                        <a href="/404" style="font-size: 12px;">
-                                            <i class="fas fa-file mr-2" style="margin-left: 20px;"></i>PERMODALAN
-                                        </a>
-                                            
-                                        <a href="/404" style="font-size: 12px;">
-                                            <i class="fas fa-file mr-2" style="margin-left: 20px;"></i>JAMINAN USAHA 
-                                        </a>
-                                            
-                                        <a href="/404" style="font-size: 12px;">
-                                            <i class="fas fa-file mr-2" style="margin-left: 20px;"></i>MITRA USAHA 
-                                        </a>
-                                            
-                                    </li> 
-
-
-                                </ul>
                             </li>
                             
+                            <p style="margin-bottom: 10px;"></p>
+                              
                             <li class="parent">
-                                <a href="#" onclick="toggle_menu('pelatihan'); return false" class="sbar"><i class="fab fa-ravelry mr-2"></i>
-                                    <span>PELATIHAN<i class="fa fa-angle-down pull-right align-bottom " style="color: black;"></i></span>
+                                <a href="#" onclick="toggle_menu('kostumer'); return false" class="sbar"><i class="fab fa-ravelry mr-2"></i>
+                                    <span>KOSTUMER<i class="fa fa-angle-down pull-right align-bottom " style="color: black;"></i></span>
                                 </a>
-                                <ul class="children" id="pelatihan">
+                                <ul class="children" id="kostumer">
+                                    <li class="child">                                         
+                                        <a href="/semuapelanggan" style="font-size: 12px;">
+                                            <i class="fas fa-file mr-2" style="margin-left: 20px;"></i>SEMUA PELANGGAN
+                                        </a>
+                                    </li> 
+
+
+                                </ul>
+                            </li>
+                         
+                          
+                              
+                            <li class="parent">
+                                <a href="#" onclick="toggle_menu('produk'); return false" class="sbar"><i class="fab fa-ravelry mr-2"></i>
+                                    <span>PRODUK<i class="fa fa-angle-down pull-right align-bottom " style="color: black;"></i></span>
+                                </a>
+                                <ul class="children" id="produk">
                                     <li class="child">
                                                                              
-                                        <a href="/404" style="font-size: 12px;">
-                                            <i class="fas fa-file mr-2" style="margin-left: 20px;"></i>PELATIHAN
-                                        </a>
-                                            
-                                        <a href="/404" style="font-size: 12px;">
-                                            <i class="fas fa-file mr-2" style="margin-left: 20px;"></i>PENGAWASAN 
-                                        </a>
-                                            
-                                        <a href="/404" style="font-size: 12px;">
-                                            <i class="fas fa-file mr-2" style="margin-left: 20px;"></i>KECELAKAAN 
-                                        </a>
-                                            
-                                        <a href="/404" style="font-size: 12px;">
-                                            <i class="fas fa-file mr-2" style="margin-left: 20px;"></i>TEKNOLOGI 
+                                        <a href="/semuapelanggan" style="font-size: 12px;">
+                                            <i class="fas fa-file mr-2" style="margin-left: 20px;"></i>SEMUA PELANGGAN
                                         </a>
                                             
                                     </li> 
@@ -244,87 +129,7 @@
                                 </ul>
                             </li>
                          
-                            
-                            <li class="parent">
-                                <a href="#" onclick="toggle_menu('peraturan'); return false" class="sbar"><i class="fab fa-ravelry mr-2"></i>
-                                    <span>PERATURAN<i class="fa fa-angle-down pull-right align-bottom " style="color: black;"></i></span>
-                                </a>
-                                <ul class="children" id="peraturan">
-                                    <li class="child">
-                                                                             
-                                        <a href="/peruud" style="font-size: 12px;">
-                                            <i class="fas fa-file mr-2" style="margin-left: 20px;"></i>UNDANG UNDANG
-                                        </a>
-                                            
-                                        <a href="/perpemerintah" style="font-size: 12px;">
-                                            <i class="fas fa-file mr-2" style="margin-left: 20px;"></i>PERATURAN PEMERINTAH
-                                        </a>
-                                            
-                                        <a href="/perpresiden" style="font-size: 12px;">
-                                            <i class="fas fa-file mr-2" style="margin-left: 20px;"></i>PERATURAN PRESIDEN
-                                        </a>
-                                            
-                                        <a href="/permenteri" style="font-size: 12px;">
-                                            <i class="fas fa-file mr-2" style="margin-left: 20px;"></i>PERATURAN MENTERI
-                                        </a>
-                                            
-                                        <a href="/skmenteri" style="font-size: 12px;">
-                                            <i class="fas fa-file mr-2" style="margin-left: 20px;"></i>KEPUTUSAN MENTERI
-                                        </a>
-                                            
-                                        <a href="/404" style="font-size: 12px;">
-                                            <i class="fas fa-file mr-2" style="margin-left: 20px;"></i>SURAT EDARAN MENTERI
-                                        </a>
-
-                                        <a href="/404" style="font-size: 12px;">
-                                            <i class="fas fa-file mr-2" style="margin-left: 20px;"></i>REFERENSI
-                                        </a>
-                                        
-                                        <a href="/404" style="font-size: 12px;">
-                                            <i class="fas fa-file mr-2" style="margin-left: 20px;"></i>PERATURAN DAERAH 
-                                        </a>
-
-                                        <a href="/404" style="font-size: 12px;">
-                                            <i class="fas fa-file mr-2" style="margin-left: 20px;"></i>PERATURAN GUBERNUR 
-                                        </a>
-
-                                        <a href="/404" style="font-size: 12px;">
-                                            <i class="fas fa-file mr-2" style="margin-left: 20px;"></i>PERATURAN WALIKOTA/ BUPATI
-                                        </a>
-                                        
-                                        <a href="/404" style="font-size: 12px;">
-                                            <i class="fas fa-file mr-2" style="margin-left: 20px;"></i>SURAT KEPUTUSAN
-                                        </a>
-                                        
-                                        
-                                        
-                                            
-                                    </li> 
-
-
-                                </ul>
-                            </li>
-                         
-                         
-                            <li class="parent">
-                                <a href="/404" class="sbar"><i class="fab fa-ravelry mr-2"> </i>
-                                    <span class="none">BADAN USAHA</span>
-                                </a>
-                            </li>
-                         
-                            <li class="parent">
-                                <a href="/404" class="sbar"><i class="fab fa-ravelry mr-2"> </i>
-                                    <span class="none">SERTIFIKAT BADAN USAHA</span>
-                                </a>
-                            </li>
-                         
-                            <li class="parent">
-                                <a href="/404" class="sbar"><i class="fab fa-ravelry mr-2"> </i>
-                                    <span class="none">TANDA DAFTAR USAHA PERUSAHAAN</span>
-                                </a>
-                            </li>
-
-
+                          
 
                             <li class="parent">
                                 <a href="/404" class="sbar"><i class="fab fa-ravelry mr-2"> </i>
