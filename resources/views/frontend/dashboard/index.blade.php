@@ -647,7 +647,7 @@
      
         <div class="copyright">
             <div class="container">
-                <p>©2024 All Rights Reserved. Design By<a href="https://wa.me/6281321455855"><span style="color: orange"> sarigit.com</span></a></p>
+                <p style="color: white;">©2024 All Rights Reserved. Design By<a href="https://wa.me/6281321455855"><span style="color: orange"> sarigit.com</span></a></p>
                 {{-- "https://wa.me/6281321455855"> --}}
         </div>
         </div>

@@ -67,7 +67,7 @@
                                     <span class="none">DASHBOARD ADMIN</span>
                                 </a>
                             </li>
-                            <hr>
+                            <p style="margin-bottom:10px;">
      
                             <li class="parent">
                                 <a href="/beranda" class="sbar"><i class="fab fa-ravelry mr-2"> </i>
@@ -88,7 +88,7 @@
                             </li>
      
                             <li class="parent">
-                                <a href="/produk" class="sbar"><i class="fab fa-ravelry mr-2"> </i>
+                                <a href="/layanan" class="sbar"><i class="fab fa-ravelry mr-2"> </i>
                                     <span class="none">LAYANAN</span>
                                 </a>
                             </li>
@@ -101,12 +101,10 @@
                                 </a>
                                 <ul class="children" id="kostumer">
                                     <li class="child">                                         
-                                        <a href="/semuapelanggan" style="font-size: 12px;">
-                                            <i class="fas fa-file mr-2" style="margin-left: 20px;"></i>SEMUA PELANGGAN
+                                        <a href="/semuakostumer" style="font-size: 12px;">
+                                            <i class="fas fa-file mr-2" style="margin-left: 20px;"></i>SEMUA KOSTUMER
                                         </a>
                                     </li> 
-
-
                                 </ul>
                             </li>
                          
@@ -119,8 +117,44 @@
                                 <ul class="children" id="produk">
                                     <li class="child">
                                                                              
-                                        <a href="/semuapelanggan" style="font-size: 12px;">
-                                            <i class="fas fa-file mr-2" style="margin-left: 20px;"></i>SEMUA PELANGGAN
+                                        <a href="/404" style="font-size: 12px;">
+                                            <i class="fas fa-file mr-2" style="margin-left: 20px;"></i>BOSTER BUAH
+                                        </a>
+                                            
+                                        <a href="/404" style="font-size: 12px;">
+                                            <i class="fas fa-file mr-2" style="margin-left: 20px;"></i>PUPUK ORGANIK
+                                        </a>
+                                              
+                                        <a href="/404" style="font-size: 12px;">
+                                            <i class="fas fa-file mr-2" style="margin-left: 20px;"></i>EVIROFAUNA
+                                        </a>
+                                            
+                                    </li> 
+
+
+                                </ul>
+                            </li>
+                         
+                          
+                          
+                              
+                            <li class="parent">
+                                <a href="#" onclick="toggle_menu('produk'); return false" class="sbar"><i class="fab fa-ravelry mr-2"></i>
+                                    <span>TRANSAKSI<i class="fa fa-angle-down pull-right align-bottom " style="color: black;"></i></span>
+                                </a>
+                                <ul class="children" id="produk">
+                                    <li class="child">
+                                                                             
+                                        <a href="/404" style="font-size: 12px;">
+                                            <i class="fas fa-file mr-2" style="margin-left: 20px;"></i>BOSTER BUAH
+                                        </a>
+                                            
+                                        <a href="/404" style="font-size: 12px;">
+                                            <i class="fas fa-file mr-2" style="margin-left: 20px;"></i>PUPUK ORGANIK
+                                        </a>
+                                              
+                                        <a href="/404" style="font-size: 12px;">
+                                            <i class="fas fa-file mr-2" style="margin-left: 20px;"></i>EVIROFAUNA
                                         </a>
                                             
                                     </li> 
