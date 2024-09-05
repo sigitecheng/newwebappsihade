@@ -588,47 +588,53 @@
             <div class="container">
 
                 <div class="row">
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                         <div class="address">
                             <a href="index.html"> <img src="/assets/brosur/sihadetext.png" alt="logo" /></a>
-                            <p>dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et sdolor sit amet, consectetur adipiscing elit, </p>
+                       <p style="text-align: justify; font-size:14px;">
+                        Sihade menyediakan solusi inovatif untuk pertanian dengan pupuk hayati berbahan alami yang memperbaiki kesehatan tanah dan penyerapan nutrisi, serta booster buah yang meningkatkan pertumbuhan dan kualitas buah menggunakan teknologi canggih. Kami berkomitmen pada solusi ramah lingkungan untuk meningkatkan hasil panen secara berkelanjutan.
+
+
+                       </p>
+                       
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
                         <div class="address">
-                            <h3>Quick links</h3>
+                            <h3>Links</h3>
                             <ul class="Links_footer">
-                                <li><img src="/assets/moon/icon/3.png" alt="#" /> <a href="#"> Join Us</a> </li>
-                                <li><img src="/assets/moon/icon/3.png" alt="#" /> <a href="#">Maintenance</a> </li>
-                                <li><img src="/assets/moon/icon/3.png" alt="#" /> <a href="#">Language Packs</a> </li>
-                                <li><img src="/assets/moon/icon/3.png" alt="#" /> <a href="#">LearnPress</a> </li>
-                                <li><img src="/assets/moon/icon/3.png" alt="#" /> <a href="#">Release Status</a> </li>
+                                <li><img src="/assets/moon/icon/3.png" alt="#" /> <a href="/">Beranda</a> </li>
+                                <li><img src="/assets/moon/icon/3.png" alt="#" /> <a href="#about">Tentang Kami</a> </li>
+                                <li><img src="/assets/moon/icon/3.png" alt="#" /> <a href="#product">Produk</a> </li>
+                                <li><img src="/assets/moon/icon/3.png" alt="#" /> <a href="#testimonial">Layanan</a> </li>
+                                <li><img src="/assets/moon/icon/3.png" alt="#" /> <a href="#contact">Kontak Kami</a> </li>
                             </ul>
                         </div>
                     </div>
 
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    {{-- <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                         <div class="address">
                             <h3>Subcribe email</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
                             <input class="form-control" placeholder="Your Email" type="type" name="Your Email">
                             <button class="submit-btn">Submit</button>
                         </div>
-                    </div>
+                    </div> --}}
 
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
                         <div class="address">
                             <h3>Contact Us</h3>
 
                             <ul class="local">
                                 <li>
-                                    <a href="#"><img src="/assets/moon/icon/loc.png" alt="#" /></a>London 145
-                                    <br>United Kingdom </li>
+                                    <a href="#"><img src="/assets/moon/icon/loc.png" alt="#" /></a><span style="color: white; margin-left:5px;">  Jl. Pelesiran No. 20E, Kec. Coblong, Kota Bandung</span>
+                                    {{-- <br>United Kingdom </li> --}}
                                 <li>
-                                    <a href="#"><img src="/assets/moon/icon/email.png" alt="#" /></a>demo@gmail.com </li>
+                                    <a href="#"><img src="/assets/moon/icon/email.png" alt="#" /></a><span style="color: white; margin-left:5px;" >sihadenew@gmail.com</span></li>
                                 <li>
-                                    <a href="#"><img src="/assets/moon/icon/call.png" alt="#" /></a>+12586954775 </li>
-                            </ul>
+                                    <a href="#"><img src="/assets/moon/icon/call.png" alt="#" /></a>(+62) 811-237-916</li>
+
+                                </ul>
                         </div>
                     </div>
                 </div>
