@@ -250,34 +250,36 @@
     <div class="for_box_bg">
         <div class="container">
             <div class="row">
-                <div class="col-xl-3 col-lg-3 col-md-3 co-sm-l2">
+                <div class="col-xl-4 col-lg-4 col-md-4 co-sm-l2">
                     <div class="for_box">
                         <i><img src="/assets/moon/images/1.png" alt="#"/></i>
                         <span>0</span>
-                        <h3>Harvesta</h3>
+                        <h3>Pupuk Organik Hayati</h3>
                     </div>
                 </div>
-                <div class="col-xl-3 col-lg-3 col-md-3 co-sm-l2">
-                    <div class="for_box">
-                        <i><img src="/assets/moon/images/2.png" alt="#"/></i>
-                        <span>0</span>
-                        <h3>Units of Cattle</h3>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-3 col-md-3 co-sm-l2">
+                
+                <div class="col-xl-4 col-lg-4 col-md-4 co-sm-l2">
                     <div class="for_box">
                         <i><img src="/assets/moon/images/3.png" alt="#"/></i>
                         <span>0</span>
-                        <h3>Farm</h3>
+                        <h3>Booster Buah</h3>
                     </div>
                 </div>
-                <div class="col-xl-3 col-lg-3 col-md-3 co-sm-l2">
+
+                <div class="col-xl-4 col-lg-4 col-md-4 co-sm-l2">
+                    <div class="for_box">
+                        <i><img src="/assets/moon/images/2.png" alt="#"/></i>
+                        <span>0</span>
+                        <h3>Evirofauna</h3>
+                    </div>
+                </div>
+                {{-- <div class="col-xl-3 col-lg-3 col-md-3 co-sm-l2">
                     <div class="for_box">
                         <i><img src="/assets/moon/images/4.png" alt="#"/></i>
                         <span>0</span>
                         <h3>Units of Technic</h3>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>
@@ -303,8 +305,8 @@
                             {{-- <p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p> --}}
                             <p>
 
-                                Pupuk organik, seperti kompos atau pupuk kandang, meningkatkan kualitas tanah dan nutrisi tanaman. Berbeda dari pupuk kimia, ia memperbaiki struktur tanah dan mendukung mikroorganisme.                        
-</p>
+                                Formula Aktif, hasil inokulasi mikrobia yang berperan penting dalam proses dekomposisi bahan organik, dapat di gunakan untuk penyemprotan tanah pertanian, juga untuk mempercepat proses pelapukan dalam pembuatan pupuk kompos.
+                            </p>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 margin_ttt">
@@ -313,7 +315,7 @@
                             <figure><img src="/assets/moon/images/offer2.png" alt="img" /></figure>
                             {{-- <p>consectetur adipiscing elit, sed do eiusmodmpor incididunt ut labore et dolore magna aliqua. Ut enim ad</p> --}}
                             <p>
-                                Booster buah adalah produk yang meningkatkan pertumbuhan dan kualitas buah dengan menyediakan nutrisi tambahan. Ini membantu mempercepat pematangan, meningkatkan rasa, dan hasil panen.
+                        Gabungan bahan organik dengan unsur makro, mikro, multivitamin dan hormon tumbuh, untuk mengoptimalkan pembentukan bunga dan buah, sehingga hasil panen akan meningkat secara nyata. 
                             </p>
                         </div>
                     </div>
@@ -418,7 +420,7 @@
 
     <!-- end product -->
     <!-- clients -->
-    <div id="testimonial" class="clients">
+    {{-- <div id="testimonial" class="clients">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -521,7 +523,7 @@
 
             </div>
         </div>
-    </div>
+    </div> --}}
   
     <!-- end clients -->
     <!-- contact -->
@@ -531,7 +533,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="title">
-                        <h2>Get In <strong class="black"> Toucgh</strong></h2>
+                        <h2>Hubungi Kami<strong class="black"></strong></h2>
                     </div>
                 </div>
             </div>
@@ -548,16 +550,16 @@
                                 <div class="row">
 
                                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                                        <input class="form-control" placeholder="Name" type="text" name="Name">
+                                        <input class="form-control" placeholder="Nama Lengkap" type="text" name="Name">
                                     </div>
                                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                                        <input class="form-control" placeholder="Email" type="text" name="Email">
+                                        <input class="form-control" placeholder="Email Anda" type="text" name="Email">
                                     </div>
                                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                                        <input class="form-control" placeholder="Phone" type="text" name="Phone">
+                                        <input class="form-control" placeholder="No Whatsapp" type="text" name="Phone">
                                     </div>
                                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                                        <textarea class="textarea" placeholder="Message" type="text" name="Message"></textarea>
+                                        <textarea class="textarea" placeholder="Masukan Pertanyaan Anda ?" type="text" name="Message"></textarea>
                                     </div>
                                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                                         <button class="send">Send</button>
@@ -567,7 +569,9 @@
                         </div>
                     </div>
                 </div>
+                
                 <div id="map">
+                
                 </div>
 
             </div>
@@ -586,7 +590,7 @@
                 <div class="row">
                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                         <div class="address">
-                            <a href="index.html"> <img src="/assets/moon/images/logo.png" alt="logo" /></a>
+                            <a href="index.html"> <img src="/assets/brosur/sihadetext.png" alt="logo" /></a>
                             <p>dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et sdolor sit amet, consectetur adipiscing elit, </p>
                         </div>
                     </div>
@@ -616,7 +620,7 @@
                         <div class="address">
                             <h3>Contact Us</h3>
 
-                            <ul class="loca">
+                            <ul class="local">
                                 <li>
                                     <a href="#"><img src="/assets/moon/icon/loc.png" alt="#" /></a>London 145
                                     <br>United Kingdom </li>
@@ -668,32 +672,23 @@
             });
         });
     </script>
-    <script>
-        // This example adds a marker to indicate the position of Bondi Beach in Sydney,
-        // Australia.
-        function initMap() {
-            var map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 11,
-                center: {
-                    lat: 40.645037,
-                    lng: -73.880224
-                },
-            });
 
-            var image = 'images/maps-and-flags.png';
-            var beachMarker = new google.maps.Marker({
-                position: {
-                    lat: 40.645037,
-                    lng: -73.880224
-                },
-                map: map,
-                icon: image
-            });
-        }
-    </script>
-    <!-- google map js -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
-    <!-- end google map js -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap" async defer></script>
+<script>
+    function initMap() {
+        var bandung = {lat: -6.9175, lng: 107.6191}; // Koordinat Bandung
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 12,
+            center: bandung
+        });
+
+        var marker = new google.maps.Marker({
+            position: bandung,
+            map: map
+        });
+    }
+</script>
 </body>
 
 </html>
