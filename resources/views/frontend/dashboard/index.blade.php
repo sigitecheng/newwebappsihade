@@ -385,7 +385,7 @@
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                             <div class="product_box">
                                 <figure><img src="/assets/moon/images/product_img2.jpg" alt="#" />
-                                    <h3>Fresh Aalu  </h3>
+                                    <h3>Fresh Fruit</h3>
                                 </figure>
                             </div>
                         </div>
@@ -623,7 +623,7 @@
 
                     <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
                         <div class="address">
-                            <h3>Contact Us</h3>
+                            <h3>Kontak Kami</h3>
 
                             <ul class="local">
                                 <li>
@@ -632,7 +632,11 @@
                                 <li>
                                     <a href="#"><img src="/assets/moon/icon/email.png" alt="#" /></a><span style="color: white; margin-left:5px;" >sihadenew@gmail.com</span></li>
                                 <li>
-                                    <a href="#"><img src="/assets/moon/icon/call.png" alt="#" /></a>(+62) 811-237-916</li>
+                                    <a href="https://wa.me/62811237916">
+                                        <img src="/assets/moon/icon/call.png" alt="WhatsApp" /> <span style="color: white; margin-left:5px;">+62811237916</span>
+                                      </a>
+{{--                                       
+                                    <a href="#"><img src="/assets/moon/icon/call.png" alt="#" /></a>(+62) 811-237-916</li> --}}
 
                                 </ul>
                         </div>
@@ -643,8 +647,8 @@
      
         <div class="copyright">
             <div class="container">
-                {{-- <p>© 2019 All Rights Reserved. Design By<a href="https://html.design/"> Free Html Templates</a></p> --}}
-           
+                <p>©2024 All Rights Reserved. Design By<a href="https://wa.me/6281321455855"><span style="color: orange"> sarigit.com</span></a></p>
+                {{-- "https://wa.me/6281321455855"> --}}
         </div>
         </div>
     </footr>
